@@ -1,0 +1,45 @@
+.welcome__header {
+    height:60px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    position: sticky;
+    top:0;
+}
+
+.welcome__name {
+    font-size: 25px;
+    color: white;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.welcome__message {
+    text-align:center;
+    font-size: 100px;
+    font-weight: 200;
+}
+
+.welcome__logo {
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.welcome__button {
+    text-align: center;
+    color:white;
+    background-color: blue;
+    font-size: 20px;
+    width: fit-content;
+    justify-content: center;
+    margin-left: 45%;
+}
+
+.welcome__body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
